@@ -1,23 +1,27 @@
-#Image to Sketch & Artistic Style Converter
+Image to Sketch & Artistic Style Converter
 
 A Streamlit-powered application that transforms normal photographs into artistic visuals such as Pencil Sketch, Watercolor Painting, and Cartoon Illustration, along with an Image Clarity Enhancement feature. Built using Python and OpenCV, the system offers an intuitive interface for instant image-to-art conversion.
 
-##🌟 Overview
+🌟 Overview
 
-This project converts standard images into multiple artistic styles using advanced OpenCV techniques such as edge detection, bilateral filtering, stylization filters, and unsharp masking. Users can upload images or capture them directly from the webcam through a clean Streamlit interface. Adjustable parameters allow fine control over each style, making the tool useful for creative projects, educational demos, and quick image enhancements.
+This project converts standard images into multiple artistic styles using advanced OpenCV techniques such as edge detection, bilateral filtering, stylization filters, and unsharp masking.
+Users can upload images or capture them directly from the webcam through a clean Streamlit interface. Adjustable parameters allow fine control over each style, making the tool ideal for creative projects, educational demos, and quick image enhancements.
 
-##✨ Features
-
+✨ Features
 Pencil Sketch Conversion
+
 Converts any image into grayscale or color sketch using edge detection and smoothing.
 
 Watercolor Effect
-Applies stylization filters to generate soft, watercolor-like output.
+
+Applies stylization filters to generate a soft, watercolor-like output.
 
 Cartoon Illustration
-Uses bilateral filtering and contour detection to create a cartoon-styled image.
+
+Uses bilateral filtering and contour detection to create a cartoon-style version of the image.
 
 Image Clarity Enhancement
+
 Improves sharpness and detail with an adjustable Unsharp Masking algorithm.
 
 Streamlit Web App
@@ -30,7 +34,7 @@ Adjustable parameters
 
 One-click download of processed results
 
-##🛠️ Tech Stack
+🛠️ Tech Stack
 
 Python
 
